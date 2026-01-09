@@ -21,6 +21,9 @@ desktop.ini
 logs/
 *.tmp
 *.temp
+poetry.lock
+pyproject.toml
+__pycache__
 
 # --- Dépendances (à adapter selon votre langage) ---
 node_modules/
@@ -31,8 +34,6 @@ venv/
 .venv
 bin/
 obj/
-poetry.lock
-pyproject.toml
 
 
 # --- Compilation et Build ---
@@ -43,3 +44,4 @@ out/
 *.dll
 *.so
 *.class
+
