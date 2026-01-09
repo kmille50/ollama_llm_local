@@ -1,0 +1,42 @@
+# --- OS spécifiques ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+desktop.ini
+
+# --- Éditeurs (VS Code, JetBrains, Vim) ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Logs et Temporaires ---
+*.log
+logs/
+*.tmp
+*.temp
+
+# --- Dépendances (à adapter selon votre langage) ---
+node_modules/
+bower_components/
+env/
+venv/
+.env
+.venv
+bin/
+obj/
+
+# --- Compilation et Build ---
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.class
