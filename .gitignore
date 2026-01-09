@@ -31,6 +31,9 @@ venv/
 .venv
 bin/
 obj/
+poetry.lock
+pyproject.toml
+
 
 # --- Compilation et Build ---
 dist/
